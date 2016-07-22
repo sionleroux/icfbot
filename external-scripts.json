@@ -8,5 +8,6 @@
   "hubot-mailchimp",
   "hubot-maps",
   "hubot-redis-brain",
-  "hubot-rules"
+  "hubot-rules",
+  "hubot-thank-you"
 ]
