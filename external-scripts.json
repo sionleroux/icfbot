@@ -5,8 +5,8 @@
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
+  "hubot-mailchimp",
   "hubot-maps",
   "hubot-redis-brain",
-  "hubot-rules",
-  "hubot-shipit"
+  "hubot-rules"
 ]
