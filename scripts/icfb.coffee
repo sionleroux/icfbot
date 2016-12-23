@@ -5,14 +5,12 @@
 
 module.exports = (robot) ->
 
-  robot.hear /pray for.\+/i, (res) ->
-    res.send "Amen!"
+  # robot.hear /pray for.\+/i, (res) ->
+  #   res.send "Amen!"
 
-  robot.hear /amen/i, (res) ->
-    robot.send(
-      {user: {name: res.message.user.name}},
-      'I no longer respond to spontaneously to "amen"'
-    )
+  # robot.hear /amen/i, (res) ->
+  #   robot.messageRoom res.message.user.name,
+  #     'I no longer respond to spontaneously to "amen"'
 
   robot.error (err, res) ->
     robot.logger.error "BEYOND MY COMPREHENSION"
