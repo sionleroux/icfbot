@@ -1,11 +1,12 @@
 [
   "hubot-diagnostics",
   "hubot-factoids",
+  "hubot-forecastio",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-pugme",
   "hubot-mailchimp",
   "hubot-maps",
+  "hubot-pugme",
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-schedule",
