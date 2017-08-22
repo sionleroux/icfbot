@@ -42,6 +42,7 @@ module.exports = (robot) ->
         .get() (err, res, body) ->
           forecastResponse = JSON.parse(body)
           datapoints = if lowaccuracy? then forecastResponse.daily else forecastResponse.hourly
+          robot.logger.error datapoints.data
           weather = datapoints.data.find (x) -> moment.unix(x.time).isSame(
             friday,
             if lowaccuracy then 'day' else 'hour'
