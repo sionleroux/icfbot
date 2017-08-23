@@ -48,6 +48,6 @@ module.exports = (robot) ->
             if lowaccuracy then 'day' else 'hour'
           )
           if weather
-            msg.send "This Friday in #{formattedLocation}, it will be #{weather.summary}."
+            msg.send "This Friday in #{formattedLocation}, it will be #{weather.summary}"
           else
             msg.send "Something went wrong checking the weather..."
