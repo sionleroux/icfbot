@@ -5,7 +5,7 @@
   "author": "Siôn Le Roux <sinisterstuf@gmail.com>",
   "description": "A simple helpful robot for ICFB",
   "dependencies": {
-    "hubot": "^2.18.0",
+    "hubot": "^3.3.2",
     "hubot-diagnostics": "0.0.1",
     "hubot-factoids": "1.0.0",
     "hubot-forecastio": "^1.0.0",
