@@ -18,7 +18,7 @@
     "hubot-rules": "^0.1.2",
     "hubot-schedule": "~0.5.0",
     "hubot-scripts": "^2.16.2",
-    "hubot-slack": "^3.4.2",
+    "hubot-slack": "^4.8.1",
     "hubot-thank-you": "0.0.3",
     "moment": "^2.29.1"
   },
